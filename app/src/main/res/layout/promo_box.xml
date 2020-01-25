@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/knight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Knight" />
+
+    <Button
+        android:id="@+id/bishop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bishop" />
+
+    <Button
+        android:id="@+id/rook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rook" />
+
+    <Button
+        android:id="@+id/queen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Queen" />
+
+</LinearLayout>
